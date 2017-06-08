@@ -42,3 +42,56 @@ body{
 .menu{
 	display: none;
 }
+
+.hidden{
+	display: none;
+	background: #302d2d;
+	width: 100%;
+	padding: 0;
+	height: 150px;
+	margin: 0;
+}
+
+#sangurucho{
+	display: none;
+}
+
+
+
+@media (min-width: 200px) and (max-width: 800px) {
+	body{
+		font-family: 'Hammersmith One', sans-serif;
+	}
+
+	#sangurucho{
+		display: inline-block;
+		font-size: 30px;
+		color: whitesmoke;
+		margin-left: 10px;
+	}
+
+	.enlaces {
+	background: black;
+		display: none;
+		}
+
+	.barrita{
+		background: #302d2d;
+		width: 100%;
+	}
+
+	.listado{
+		list-style: none;
+		border-bottom: 1px solid whitesmoke;
+	}
+
+	.listado a{
+		color: whitesmoke;
+		width: 200px;
+		text-decoration: none;
+	}
+
+	.listado a:hover{
+		color: #db7878;
+	}
+}
