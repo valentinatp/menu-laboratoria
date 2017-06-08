@@ -12,12 +12,13 @@ body{
 
 .enlaces{
 	width: 100%;
-	max-width: 1000px;
+	max-width: 90%;
 	margin: auto;
+	padding: 20px;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	height: 50px;
+	height: 29px;
 }
 
 .enlaces li{
@@ -28,4 +29,16 @@ body{
 	text-decoration: none;
 	text-transform: uppercase;
 	color: whitesmoke;
+	width: 100%;
+}
+
+.enlaces a:hover{
+	background: whitesmoke;
+	color: #db7878;
+	padding: 30px;
+	cursor: pointer;
+}
+
+.menu{
+	display: none;
 }
