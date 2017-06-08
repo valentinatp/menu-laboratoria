@@ -1,6 +1,7 @@
 body{
 	margin: 0;
 	padding: 0;
+	font-family: 'Fira Sans', sans-serif;
 }
 
 .barra{
@@ -16,6 +17,7 @@ body{
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
+	height: 50px;
 }
 
 .enlaces li{
@@ -24,4 +26,6 @@ body{
 
 .enlaces a{
 	text-decoration: none;
+	text-transform: uppercase;
+	color: whitesmoke;
 }
