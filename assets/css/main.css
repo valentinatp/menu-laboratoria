@@ -9,3 +9,19 @@ body{
 	top: 0;
 }
 
+.enlaces{
+	width: 100%;
+	max-width: 1000px;
+	margin: auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.enlaces li{
+	list-style: none;
+}
+
+.enlaces a{
+	text-decoration: none;
+}
